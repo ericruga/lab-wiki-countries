@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.backgroundColorWi{
+  background-color:#7bb4c4;
+}
+
+.borderDetailList{
+  border:1px solid black;
+  padding: 50px;
+}
+
+.noBullets{
+  list-style-type: none;
+}
+
+.noBullets:empty:before{
+  content: "NO BORDERS";
+  margin-left: -35px
+}
